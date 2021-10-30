@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: #171616;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    background-color: rgb(187, 187, 181);
+    text-decoration: underline;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+h1:hover
+{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 15px rgba(74, 153, 127, 0.774);
+    text-align: center;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 50px rgba(75, 153, 127, 0.616);
+}
+
+h1.segundario
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    background-color: rgb(187, 187, 181);
+    text-decoration: underline;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+h1.segundario:hover
+{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 15px rgba(74, 153, 127, 0.774);
+    text-align: center;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 50px rgba(75, 153, 127, 0.616);
+}
+
+main
+{
+    border: 15px groove rgb(187, 187, 181);
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    width: 560px;
+    height: 315px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(104, 98, 89);
+    margin-bottom: 20px;
+}
+
+main:hover
+{
+    border: 15px groove aquamarine;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 50px rgba(23, 255, 178, 0.521);
+}
+
+main:active
+{
+    border: 15px groove rgba(127, 255, 212, 0.521);
+    background-color: rgba(127, 255, 212, 0.521);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+p.cursocompleto
+{
+    background-color: rgb(187, 187, 181);
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 3px 3px 15px rgb(104, 98, 89);
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+
+.cursocompleto:hover
+{
+    background-color: aquamarine;
+    box-shadow: 1px 1px 30px aquamarine;
+}
+
+.cursocompleto:active
+{
+    background-color: rgba(127, 255, 212, 0.521);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-bottom: 28px;
+    margin-top: 28px; 
+}
+
+p > a
+{
+    text-decoration: none;
+    color: black
+}
+
+p.voltar
+{
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+p.voltar:hover
+{
+    box-shadow: 1px 1px 30px aquamarine;
+    border-radius: 140px;
+}
+
+p.voltar:active
+{
+    background-color: rgba(255, 255, 255, 0.308);
+    color: aquamarine;
+    margin: 0px 685px;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+

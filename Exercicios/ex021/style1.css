@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+body
+{
+    background-color: rgb(143, 143, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header
+{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.63);
+}
+
+nav
+{
+    background-color: rgb(88, 88, 88);
+    padding: 2px;
+    box-shadow: 3px 3px 5px rgba(41, 40, 40, 0.534);
+}
+
+nav > a
+{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+nav > a:hover
+{
+    text-decoration: underline;
+}
+
+main
+{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+    border-radius: 10px 0px;
+}
+
+article
+{
+    background-color: lightgray;
+    padding: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.445);
+}
+
+article > aside
+{
+    background-color: rgb(138, 137, 137);
+    text-align: center;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+footer > p
+{
+    margin: 0px;
+}
+
+div#bola
+{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Pacifico&display=swap');
+
+body
+{
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: justify;
+}
+h1
+{
+    text-align: center;
+    font-family: "Pacifico";
+    font-size: 70px;
+}
